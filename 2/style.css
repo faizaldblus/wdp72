@@ -1,0 +1,77 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: blueviolet;
+}
+
+.tulisan1{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.tulisan2{
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+.tulisan3{
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    word-spacing: 10px;
+}
+
+.link:hover{
+    color: red;
+}
+
+.kotak {
+    border: 1px solid white;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+    
+}
+
+.kotak1 {
+    border: solid 1px;
+    padding: 5px;
+    margin: 10px;
+    color: blue;
+}
+
+ul.transportasi {
+    list-style-type: square;
+}
+
+ul.lokasi{
+    list-style-type: circle;
+}
+
+ol.merk{
+    list-style-type: upper-roman;
+}
+
+.box{
+    background-color: green;
+    height: 30px;
+    width: 1900px;
+    text-align: center;
+    color: white;
+}
