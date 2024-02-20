@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html">
+        <input type="text" />
+        <input type="submit" value="save" onclick="editHasil()" />
+    </form>
+    <h1 id="hasil"></h1>
+    <h1 id="perkalian"></h1>
+    <h1 id="pembagian"></h1>
+    <h1 id="penambahan"></h1>
+    <h1 id="pengurangan"></h1>
+
+    <button onclick="editHasil()">Edit</button>
+    <button onclick="this.innerHTML = Date()">The time is</button>
+    <script>
+        function perkalian(a, b) {
+            return a * b;
+        }
+        
+        function pembagian(a, b) {
+            return a / b;
+        }
+
+        function penambahan(a, b) {
+            return a + b;
+        }
+
+        function pengurangan(a, b) {
+            return a - b;
+        }
+
+        document.getElementById("perkalian").innerHTML = perkalian(4, 4);
+        document.getElementById("pembagian").innerHTML = pembagian(10, 2);
+        document.getElementById("penambahan").innerHTML = penambahan(25, 4);
+        document.getElementById("pengurangan").innerHTML = pengurangan(25, 4);
+
+
+
+
+        function editHasil() {
+            event.preventDefault();
+            document.getElementById("hasil").innerHTML = "hasil";
+        }
+    </script>
+
+
+</body>
+</html>
